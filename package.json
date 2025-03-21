@@ -1,0 +1,24 @@
+{
+  "name": "music-trivia-game-backend",
+  "version": "1.0.0",
+  "description": "Backend logic for music trivia game",
+  "homepage": "https://github.com/beretests/music-trivia-game-backend#readme",
+  "bugs": {
+    "url": "https://github.com/beretests/music-trivia-game-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beretests/music-trivia-game-backend.git"
+  },
+  "license": "ISC",
+  "author": "Eberechi Omeje, Eliza Pradhan",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
